@@ -150,7 +150,6 @@ const sortAndMergeIntervals = (intervals: TIntervals): TIntervals => {
  */
 const main = (inputValue: any): TIntervals => {
   const result = sortAndMergeIntervals(inputValue);
-
   console.log('RESULT =', result);
   return result;
 };

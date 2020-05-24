@@ -38,6 +38,13 @@ describe('test main', () => {
       ),
     );
 
+    expect(() => {
+      main(['']);
+    }).toThrow( TypeError(
+      `Interval "" is incorrect: boundaries are not valid integer numbers`,
+    ),);
+
+
     const wrongBoundariesArr = [
       'null',
       '1.22-100',
