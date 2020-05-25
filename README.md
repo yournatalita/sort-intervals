@@ -2,6 +2,19 @@
 
 Node.js + Jest
 
+### To run with custom array
+
+To run with custom array try following command:
+
+```sh
+npm run build
+node build/src/main.js -l 1-1,-2--1
+```
+
+Where 1-1,-2--1 is comma-separated list of intervals.
+
+-----
+
 # Using node-typescript-boilerplate
 
 [More About Boilerplate](https://github.com/jsynowiec/node-typescript-boilerplate) 
